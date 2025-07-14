@@ -1,0 +1,12 @@
+{
+  "name": "cli",
+  "bin": {
+    "note": "index.js"
+  },
+  "type": "module",
+  "scripts": {},
+  "packageManager": "pnpm@10.8.0",
+  "dependencies": {
+    "yargs": "^18.0.0"
+  }
+}
