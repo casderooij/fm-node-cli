@@ -7,6 +7,7 @@ import {
   removeAllNodes,
   removeNote,
 } from './notes.js';
+import { start } from './server.js';
 
 const listNotes = (notes) => {
   notes.forEach((note) => {
@@ -86,7 +87,10 @@ yargs(hideBin(process.argv))
         default: 5000,
       });
     },
-    async (argv) => {}
+    async (argv) => {
+      const notes = await getAllNotes();
+      start(notes, argv.port);
+    }
   )
   .command(
     'clean',

@@ -9,6 +9,7 @@
   },
   "packageManager": "pnpm@10.8.0",
   "dependencies": {
+    "open": "^10.2.0",
     "yargs": "^18.0.0"
   },
   "devDependencies": {

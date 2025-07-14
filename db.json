@@ -4,6 +4,15 @@
       "tags": [],
       "content": "My first note",
       "id": 1752525254230
+    },
+    {
+      "tags": [
+        "note",
+        "cli",
+        "nodejs"
+      ],
+      "content": "Heey this is my first note",
+      "id": 1752534244288
     }
   ]
 }
