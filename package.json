@@ -4,9 +4,14 @@
     "note": "index.js"
   },
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
   "packageManager": "pnpm@10.8.0",
   "dependencies": {
     "yargs": "^18.0.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.4"
   }
 }
